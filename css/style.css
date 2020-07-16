@@ -48,6 +48,7 @@ nav {
     height: 3px;
     background-color: rgb(255, 255, 255);
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1074px) {
@@ -56,6 +57,7 @@ nav {
     }
 }
 
+/* При рамере экрана 768px изменить контент */
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -85,6 +87,7 @@ nav {
     transform: translateX(0%);
 }
 
+/*  */
 @keyframes navLinkFade {
     from {
         opacity: 0;
@@ -96,6 +99,8 @@ nav {
     }
 }
 
+
+/*При выборе burger делаем крестик*/
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
